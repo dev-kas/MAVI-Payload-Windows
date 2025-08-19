@@ -63,7 +63,8 @@ static void log(std::string message) {
 
 std::atomic<bool> g_running{ true };
 
-const char* url = "http://localhost:5500";
+const char* url = "https://mavi.glitchiethedev.com";
+//const char* url = "http://localhost:5500";
 sio::client client;
 std::map<std::string, std::string> identification = { {"type", "host"} };
 
